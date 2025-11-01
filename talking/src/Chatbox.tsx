@@ -28,10 +28,12 @@ export default function Chat() {
     <Chatbox
       // @ts-ignore
       host="durhack.talkjs.com"
-      style={{ width: '400px', height: '600px' }}
+      style={{ width: '600px', height: '600px' }}
       appId={appId}
       userId={userId}
       conversationId={conversationId}
+      // chatHeaderVisible={false}
+      // messageFieldVisible={false}
     />
   );
 }
